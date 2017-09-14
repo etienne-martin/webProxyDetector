@@ -6,9 +6,7 @@ hidemyass.com, kproxy.com, unblockvideos.com, tubeoxy.com, hide.me, zend2.com, p
 
 # Usage
 
-1. Update the `$expectedOrigin` variable in [webProxyDetector.php](https://github.com/etienne-martin/webProxyDetector/blob/master/webProxyDetector.php) with your domain name.
-
-2. Upload webProxyDetector.php to your web server.
+1. Upload [webProxyDetector.php](https://github.com/etienne-martin/webProxyDetector/blob/master/webProxyDetector.php) to your web server.
 
 3. Embed [webProxyDetector.js](https://github.com/etienne-martin/webProxyDetector/blob/master/webProxyDetector.js) in your site.
 
