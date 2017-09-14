@@ -19,7 +19,7 @@ webProxyDetector({
     backend: "http://example.com/webProxyDetector.php",
     callback: function(response){
         if( response.isProxy ){
-            alert("The request was proxied through", response.proxy)
+            alert("The request was proxied through " + response.proxy)
         }else{
             alert("No web proxy detected")
         }	
