@@ -15,12 +15,12 @@ ajax.onreadystatechange = function(){
     }
 }
 
-ajax.open("GET", "http://example.com/proxy.php?origin=" + window.location.origin, true)
+ajax.open("GET", "http://example.com/webProxyDetector.php?origin=" + window.location.origin, true)
 ajax.setRequestHeader("x-client-origin", window.location.origin)
 ajax.send()
 ```
 
-### Back-end
+### webProxyDetector.php
 
 ```php
 header('Access-Control-Allow-Origin: *');  
