@@ -8,9 +8,9 @@ hidemyass.com, kproxy.com, unblockvideos.com, tubeoxy.com, hide.me, zend2.com, p
 
 1. Upload [webProxyDetector.php](https://github.com/etienne-martin/webProxyDetector/blob/master/webProxyDetector.php) to your web server.
 
-3. Embed [webProxyDetector.js](https://github.com/etienne-martin/webProxyDetector/blob/master/webProxyDetector.js) in your site.
+2. Embed [webProxyDetector.js](https://github.com/etienne-martin/webProxyDetector/blob/master/webProxyDetector.js) in your site.
 
-4. Call the `webProxyDetector` function like so:
+3. Call the `webProxyDetector` function like so:
 
 ```javascript
 webProxyDetector({
